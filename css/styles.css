@@ -3,8 +3,9 @@
 
 body {
   color: #212121;
-  font-family: roboto; relaway; sans-serif;
-  text-decoration: none;
+  background: #FFF;
+  font-family: roboto, relaway, sans-serif;
+  font-size: 14px;
 }
 
 .logo {
@@ -21,12 +22,14 @@ body {
 
 .navigation_bar .nav_tap {
   color: #212121;
-  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
   text-decoration: none;
+}
+.navigation_bar :focus {
+  color: #2196f3;
 }
 .navigation_bar {
   list-style: none;
@@ -35,9 +38,9 @@ body {
   color: #2196f3;
 }
 
+
 .navigation_links ._link {
   color: #757575;
-  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -83,28 +86,19 @@ body {
 }
 
 .job_title {
-  font-size: 14px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
-.second_important .job_title {
-  color: #757575;
-}
-
 .job_description {
   color: #757575;
-  font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
 
-.work{
-  background: #FFF;
-}
 .what_we_do {
   text-align: center;
   font-size: 36px;
@@ -155,7 +149,6 @@ body {
 }
 .foot_links .contact_address {
   color: #FFF;
-  font-size: 14px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
@@ -164,7 +157,6 @@ body {
 }
 .foot_links .contact {
   color: rgba(255, 255, 255, 0.60);
-  font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
@@ -191,12 +183,16 @@ body {
   border: none;
   cursor: pointer;
 }
-.button_list {
-  list-style: none;
-}
-.button_list :hover {
+.button_:hover {
   background: #2196F3;
   color: #FFF;
+}
+.button_:focus {
+  background: #2196F3;
+  color: #FFF;
+}
+.button_list {
+  list-style: none;
 }
 
 .pro-title {
